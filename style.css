@@ -1,0 +1,838 @@
+@media only screen and (min-width: 920px){
+    @font-face {
+        font-family: Averta;
+        src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+}
+body{
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    overflow-anchor: none;
+    width: 100%;
+    background-color: #FFFAFA;
+    margin: auto;
+
+}
+.CONTAINER{
+    width: 100%;
+    background-color: #FFFAFA;
+    align-items: center;
+}
+.hero{
+    background-color: #FFFAFA;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-image: url("./images/hero-bg.svg");
+}
+.logo{
+position: relative;
+left: 43%;
+top: 50px;
+width: 9%;
+}
+.writeup-1{
+    position: relative;
+    left: 40%;
+    top: 125px;
+    color: #212529;
+    font-family: 'Averta';
+    font-weight: 700;
+}
+.writeup-2{
+    position: relative;
+    left: -2%;
+    top: 150px;
+    text-align: center;
+    color: #212529;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1rem;
+}
+.btn-1{
+    position: relative;
+    top: 230px;
+    left: 32%;
+    width: 15%;
+    height: 45px;
+    /* border: none; */
+    background-color:#E7332B;
+    color: white;
+    cursor: pointer;
+    border: solid;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.btn-1:hover{
+    background-color: #FFFFFF;
+    color: #E7332B;
+    border-style: solid;
+    border-color: #E7332B;
+}
+.btn-2{
+    position: relative;
+    top: 230px;
+    left: 33%;
+    height: 41px;
+    width: 16%;
+    border-color: #E7332B;
+    background-color:#FFFFFF;
+    color: #E7332B;
+    border-style:solid;
+    cursor: pointer;
+    border: solid;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.btn-2:hover{
+    background-color: #E7332B;
+    color: white;
+    border-style: solid;
+    border-color: #E7332B;
+}
+.hero-2{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+}
+.writeup-3a{
+    position: relative;
+    top: 120px;
+    left: 43%;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.writeup-3b{
+    text-align: center;
+    position: relative;
+    left: -2%;
+    top: 130px;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #212529;
+}
+.item-2{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 500px;
+    gap: 70px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -200px;
+    align-items: center;
+    margin: auto;
+}
+.card1{
+    position: relative;
+    left: -2%;
+    top: 150px;
+    z-index: 1;
+    
+}
+.card2{
+    position: relative;
+    left: 50%;
+    top: 150px;
+    z-index: 1;
+    
+}
+.zuri-training{
+    background-color: #FFFAFA;
+    padding: 20px;
+    height: 400px;
+    width: 25%;
+    z-index: 1;
+}
+.zuri-writeup1{
+    width: 90%;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #514949;
+}
+.zuri-internship{
+    background-color: #FFFAFA;
+    padding: 20px;
+    height: 400px;
+    width: 25%;
+}
+.zuri-writeup2{
+    width: 90%;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #514949;
+}
+.zuri-writeup2b{
+    position: relative;
+    top: 5px;
+}
+.zuri-talent{
+    background-color: #FFFAFA;
+    padding: 20px;
+    height: 400px;
+    width: 25%;
+    z-index: 1;
+}
+.zuri-writeup3{
+    width: 90%;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #514949;
+}
+.footer{
+    background-color: #FFFFFF;
+    height: 400px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 115%;
+}
+.footie{
+    display: flex;
+    flex-direction: row;
+    gap: 160px;
+    justify-content: center;
+    place-items: center;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+.logo2{
+    width: 90%;
+}
+.footer-content1{
+    position: relative;
+    bottom: 45px;
+}
+.footer-content2{
+    position: relative;
+    bottom: 7px;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #514949;
+}
+.footer-content3{
+    position: relative;
+    bottom: 0px;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #514949;
+}
+.footer-content4{
+    position: relative;
+    bottom: 35px;
+}
+.footer-content4-write{
+    position: relative;
+    left: 4%;
+    font-family: 'Averta';
+    font-weight: 500;
+    font-size: 1rem;
+    color: #514949;
+}
+.fb{
+    position: relative;
+    left: 1%;
+}
+.twitter{
+    position: relative;
+    left: 3%;
+}
+.IG{
+    position: relative;
+    left: 5%;
+}
+.linkdin{
+    position: relative;
+    left: 7%;
+}
+.footer2{
+    background-color: #FFFFFF;
+    height: 200px;
+    place-items: center;
+    margin: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Averta';
+    font-weight: 500;
+    font-size: 1rem;
+    color: #514949;
+}
+a{
+    text-decoration: none;
+}
+}
+@media only screen and (max-width: 921px){
+    @font-face {
+        font-family: Averta;
+        src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+}
+body{
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    overflow-anchor: none;
+    width: 100%;
+    background-color: #FFFAFA;
+    margin: auto;
+
+}
+.CONTAINER{
+    width: 100%;
+    background-color: #FFFAFA;
+    align-items: center;
+}
+.hero{
+    background-color: #FFFAFA;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-image: url("./images/hero-bg.svg");
+    object-fit: cover;
+    background-size: cover;
+}
+.logo{
+position: relative;
+left: 43%;
+top: 50px;
+}
+.writeup-1{
+    position: relative;
+    left: 38%;
+    top: 125px;
+    color: #212529;
+    font-family: 'Averta';
+    font-weight: 700;
+}
+.writeup-2{
+    position: relative;
+    left: -2%;
+    top: 150px;
+    text-align: center;
+    color: #212529;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1rem;
+}
+.btn-1{
+    position: relative;
+    top: 200px;
+    left: 37%;
+    width: 30%;
+    height: 45px;
+    /* border: none; */
+    background-color:#E7332B;
+    color: white;
+    cursor: pointer;
+    border: solid;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.btn-1:hover{
+    background-color: #FFFFFF;
+    color: #E7332B;
+    border-style: solid;
+    border-color: #E7332B;
+}
+.btn-2{
+    position: relative;
+    top: 240px;
+    left: 3.5%;
+    height: 40px;
+    width: 36%;
+    border-color: #E7332B;
+    background-color:#FFFFFF;
+    color: #E7332B;
+    border-style:solid;
+    cursor: pointer;
+    border: solid;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.btn-2:hover{
+    background-color: #E7332B;
+    color: white;
+    border-style: solid;
+    border-color: #E7332B;
+}
+.hero-2{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 800px;
+    background-image: url("./images/OIP.jpg") no-repeat;
+    background-size: cover;
+}
+.writeup-3a{
+    position: relative;
+    top: 90px;
+    left: 43%;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.writeup-3b{
+    text-align: center;
+    position: relative;
+    left: 2%;
+    top: 130px;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #212529;
+}
+.item-2{
+    background-color: #FFFFFF;
+    width: 80%;
+    height: 100px;
+    gap: 70px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 750px;
+    align-items: center;
+    margin: auto;
+}
+.card1{
+    display: none;
+}
+.card2{
+    display: none;
+}
+.zuri-training{
+    background-color: #FFFAFA;
+    padding: 20px;
+    height: 450px;
+    width: 80%;
+}
+.zuri-writeup1{
+    width: 90%;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #514949;
+}
+.zuri-internship{
+    background-color: #FFFAFA;
+    padding: 20px;
+    height: 450px;
+    width: 80%;
+}
+.zuri-writeup2{
+    width: 90%;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #514949;
+}
+.zuri-talent{
+    background-color: #FFFAFA;
+    padding: 20px;
+    height: 450px;
+    width: 80%;
+}
+.zuri-writeup3{
+    width: 90%;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #514949;
+}
+.footer{
+    background-color: #FFFFFF;
+    height: 1380px;
+    /* place-items: center;
+    margin: auto; */
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 115%;
+    /* display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center; */
+    /* position: relative;
+    top: 500px; */
+}
+.logo2{
+    width: 150%;
+}
+.footie{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    place-items: center;
+    margin: auto;
+    position: relative;
+    top: 900px;
+}
+.footer-content1{
+    position: relative;
+    bottom: 45px;
+    left: -9%;
+}
+.footer-content2{
+    position: relative;
+    bottom: 30px;
+    left: -7%;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #514949;
+}
+.footer-content3{
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    left: -7%;
+}
+.footer-content4{
+    position: relative;
+    bottom: 25px;
+    left: 4%;
+    font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #514949;
+}
+.footer-content4-write{
+    position: relative;
+    left: 4%;
+}
+.fb{
+    position: relative;
+    left: 1%;
+}
+.twitter{
+    position: relative;
+    left: 3%;
+}
+.IG{
+    position: relative;
+    left: 5%;
+}
+.linkdin{
+    position: relative;
+    left: 7%;
+}
+.footer2{
+    background-color: #FFFFFF;
+    height: 100px;
+    place-items: center;
+    margin: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Averta';
+    font-weight: 500;
+    font-size: 1rem;
+    color: #514949;
+}
+a{
+    text-decoration: none;
+}
+}
+@media only screen and (max-width:425px){
+        @font-face {
+            font-family: Averta;
+            src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+        }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Averta, sans-serif;
+    }
+    body{
+        overflow-x: hidden;
+        /* overflow-y: hidden; */
+        overflow-anchor: none;
+        width: 100%;
+        background-color: #FFFAFA;
+        margin: auto;
+    
+    }
+    .CONTAINER{
+        width: 100%;
+        background-color: #FFFAFA;
+        align-items: center;
+    }
+    .hero{
+        background-color: #FFFAFA;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        background-image: url("./images/hero-bg.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .logo{
+    position: relative;
+    left: 35%;
+    top: 50px;
+    }
+    .writeup-1{
+        position: relative;
+        left: 24%;
+        top: 125px;
+        color: #212529;
+        font-family: 'Averta';
+    font-weight: 700;
+    }
+    .writeup-2{
+        position: relative;
+        left: 4%;
+        top: 150px;
+        text-align: center;
+        color: #212529;
+        width: 90%;
+        font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1rem;
+    }
+    .btn-1{
+        position: relative;
+        top: 250px;
+        left: 23%;
+        width: 55%;
+        height: 45px;
+        /* border: none; */
+        background-color:#E7332B;
+        color: white;
+        cursor: pointer;
+        border: solid;
+        font-family: 'Averta';
+    font-weight: 400;
+    font-size: 0.9rem;
+    }
+    .btn-1:hover{
+        background-color: #FFFFFF;
+        color: #E7332B;
+        border-style: solid;
+        border-color: #E7332B;
+    }
+    .btn-2{
+        position: relative;
+        top: 245px;
+        left: 18%;
+        height: 45px;
+        width: 65%;
+        border-color: #E7332B;
+        background-color:#FFFFFF;
+        color: #E7332B;
+        border-style:solid;
+        cursor: pointer;
+        border: solid;
+        font-family: 'Averta';
+    font-weight: 400;
+    font-size: 0.9rem;
+    }
+    .btn-2:hover{
+        background-color: #E7332B;
+        color: white;
+        border-style: solid;
+        border-color: #E7332B;
+    }
+    .hero-2{
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 800px;
+        background-image: url("./images/OIP.jpg") no-repeat;
+        background-size: cover;
+    }
+    .writeup-3a{
+        position: relative;
+        top: 120px;
+        left: 34%;
+        font-family: 'Averta';
+    font-weight: 400;
+    font-size: 0.8rem;
+    }
+    .writeup-3b{
+        text-align: center;
+        position: relative;
+        left: -1%;
+        top: 130px;
+        font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #212529;
+    }
+    .item-2{
+        background-color: #FFFFFF;
+        width: 80%;
+        height: 100px;
+        gap: 70px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 750px;
+        align-items: center;
+        margin: auto;
+    }
+    .zuri-training{
+        background-color: #FFFAFA;
+        padding: 20px;
+        height: 520px;
+        width: 80%;
+    }
+    .zuri-writeup1{
+        width: 90%;
+        font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #514949;
+    }
+    .zuri-internship{
+        background-color: #FFFAFA;
+        padding: 20px;
+        height: 500px;
+        width: 80%;
+    }
+    .zuri-writeup2{
+        width: 90%;
+        font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #514949;
+    }
+    .zuri-talent{
+        background-color: #FFFAFA;
+        padding: 20px;
+        height: 500px;
+        width: 80%;
+    }
+    .zuri-writeup3{
+        width: 90%;
+        font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #514949;
+    }
+    .footer{
+        background-color: #FFFFFF;
+        height: 1480px;
+        /* place-items: center;
+        margin: auto; */
+        overflow-y: hidden;
+        overflow-x: hidden;
+        width: 115%;
+        /* display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center; */
+        /* position: relative;
+        top: 500px; */
+    }
+    .logo2{
+        width: 150%;
+    }
+    .footie{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        place-items: center;
+        margin: auto;
+        position: relative;
+        top: 1000px;
+    }
+    .footer-content1{
+        position: relative;
+        bottom: 60px;
+        left: -12%;
+    }
+    .footer-content2{
+        position: relative;
+        bottom: 40px;
+        left: -7%;
+        font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #514949;
+    }
+    .footer-content3{
+        position: relative;
+        bottom: 30px;
+        text-align: center;
+        left: -7%;
+    }
+    .footer-content4{
+        position: relative;
+        bottom: 25px;
+        left: 12%;
+        font-family: 'Averta';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #514949;
+    }
+    .footer-content4-write{
+        position: relative;
+        left: 5%;
+    }
+    .fb{
+        position: relative;
+        left: 1%;
+    }
+    .twitter{
+        position: relative;
+        left: 3%;
+    }
+    .IG{
+        position: relative;
+        left: 5%;
+    }
+    .linkdin{
+        position: relative;
+        left: 7%;
+    }
+    .footer2{
+        background-color: #FFFFFF;
+        height: 100px;
+        place-items: center;
+        margin: auto;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: 'Averta';
+    font-weight: 500;
+    font-size: 1rem;
+    color: #514949;
+    }
+    a{
+        text-decoration: none;
+    }
+}
