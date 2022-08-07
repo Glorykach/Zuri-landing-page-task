@@ -18,10 +18,14 @@ body{
     margin: auto;
 
 }
+#main{
+    overflow-x: hidden;
+}
 .CONTAINER{
     width: 100%;
     background-color: #FFFAFA;
     align-items: center;
+    /* overflow-x: hidden; */
 }
 .hero{
     background-color: #FFFAFA;
@@ -102,10 +106,11 @@ width: 9%;
     width: 100%;
     height: 750px;
     background-size: cover;
+    
 }
 .writeup-3a{
     position: relative;
-    top: 120px;
+    top: 100px;
     left: 43%;
     font-family: 'Averta';
     font-weight: 400;
@@ -115,7 +120,7 @@ width: 9%;
     text-align: center;
     position: relative;
     left: -2%;
-    top: 130px;
+    top: 100px;
     font-family: 'Averta';
     font-weight: 400;
     font-size: 1.5rem;
@@ -133,6 +138,7 @@ width: 9%;
     top: -200px;
     align-items: center;
     margin: auto;
+    overflow-y: hidden;
 }
 .card1{
     position: relative;
@@ -301,10 +307,16 @@ body{
     margin: auto;
 
 }
+#main{
+    overflow-x: hidden;
+}
 .CONTAINER{
     width: 100%;
     background-color: #FFFAFA;
     align-items: center;
+    /* overflow-x: hidden;
+     */
+    
 }
 .hero{
     background-color: #FFFAFA;
@@ -408,7 +420,7 @@ top: 50px;
 }
 .item-2{
     background-color: #FFFFFF;
-    width: 80%;
+    width: 90%;
     height: 100px;
     gap: 70px;
     justify-content: center;
@@ -418,6 +430,7 @@ top: 50px;
     top: 750px;
     align-items: center;
     margin: auto;
+    
 }
 .card1{
     display: none;
@@ -471,7 +484,7 @@ top: 50px;
     margin: auto; */
     overflow-y: hidden;
     overflow-x: hidden;
-    width: 115%;
+    width: 100%;
     /* display: flex;
     flex-direction: column;
     gap: 50px;
@@ -491,6 +504,8 @@ top: 50px;
     margin: auto;
     position: relative;
     top: 900px;
+    left: 7%;
+    overflow-x: hidden;
 }
 .footer-content1{
     position: relative;
@@ -580,6 +595,9 @@ a{
         background-color: #FFFAFA;
         margin: auto;
     
+    }
+    #main{
+        overflow-x: hidden;
     }
     .CONTAINER{
         width: 100%;
@@ -671,7 +689,7 @@ a{
     }
     .writeup-3a{
         position: relative;
-        top: 120px;
+        top: 100px;
         left: 34%;
         font-family: 'Averta';
     font-weight: 400;
@@ -681,7 +699,7 @@ a{
         text-align: center;
         position: relative;
         left: -1%;
-        top: 130px;
+        top: 100px;
         font-family: 'Averta';
     font-weight: 400;
     font-size: 1.5rem;
