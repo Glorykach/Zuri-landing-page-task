@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/graphik');
 @media only screen and (min-width: 920px){
     
     @font-face {
@@ -22,67 +23,70 @@
     #main{
         overflow-x: hidden;
     }
-    li a{
-        text-decoration: none;
-        align-items: center;
-        font-size: 1rem;
-        font-family: 'Graphik';
-        font-weight: 500;
-        color: #585757;
-        text-align: center;
-        display: block;
-  text-align: center;
-  padding: 20px 3px;
+    
+    .logoo{
+        width: 20%;
+        position: relative;
+        top: 50px;
+        left: 4%;
     }
-    #navbar li{
-        list-style: none;
-    }
-    #navbar{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 30px;
+    .menu{
         background-color:#FFFDF5;
         position: fixed;
         top: 0;
         margin: auto;
         z-index: 4;
         width: 100%;
+        height: 160px;
     }
-    #navbar ul{
-        display: flex;
-        gap: 3rem;
+    .menu ul{
         list-style-type: none;
+        margin: 0;
+        padding: 0;
         overflow: hidden;
+        background-color: #FFFDF5;
     }
-    .menu li{
-        padding: 6px 10px;
+        .menu li{
+        float:right;
+        position: relative;
+        right: 23%;
     }
-    .logoo{
-        width: 70%;
+    .menu li a{
+        font-family: 'Graphik';
+        font-size: 1rem;
+        display: block;
+        font-weight: 500;
+        color: #585757;
+        text-align: center;
+        padding: 20px 25px;
+        text-decoration: none;
+    }
+    .menu li a{
+        background-color: #FFFDF5;
     }
     .thumbs{
-        width: 80%;
+        width: 70%;
         position: relative;
-        right: -5%;
-        bottom: -2px;
+        top: 10px;
+        left: 13%;
+        
     }
     .thumbs-up{
         background-color: #E7332B;
-        width: 7%;
-        padding: 10px;
-        border-radius: 200px;
-        height: 57px;
+        width: 6%;
+        border-radius: 190px;
+        height: 67px;
         position: relative;
-        left: 7.5%;
-        bottom: -7px;
         cursor: pointer;
+        left: 80%;
+        bottom: 10px;
+        z-index: 1;
 
     }
     .thumbs-btn{
-        width: 16%;
+        width: 12%;
         padding: 5px;
-        height: 35px;
+        height: 40px;
         background-color: #E7332B;
         font-size: 0.9rem;
         font-family: 'Graphik';
@@ -91,9 +95,10 @@
         border: none;
         border-radius: 20px;
         position: relative;
-        top: 20px;
         cursor: pointer;
-    }
+        left: 84%;
+        bottom: 60px;
+    } 
     .hero1{
         width: 100%;
         background-color: #FFFDF5;
@@ -115,7 +120,7 @@
     }
     .hero1-h1{
         font-family: 'Graphik';
-        font-weight: 900;
+        font-weight: 700;
         color: #1B1A20;
     }
 
@@ -125,6 +130,9 @@
     font-size: 1rem;
     font-weight: 400;
     color: #1B1A20;
+    width: 60%;
+    position: relative;
+    left: 20%;
     }
     .hero1-btn{
      width: 30%;
@@ -147,8 +155,8 @@
     .hero1-bigboy{
         width: 25%;
         position: relative;
-        bottom: 80px;
-        left: 13%;
+        bottom: 60px;
+        left: 16%;
     }
     .hero1-male-face{
         width: 5%;
@@ -164,8 +172,8 @@
     .hero1-line{
             width: 11%;
             position: relative;
-            bottom: 280px;
-            left: 3%;
+            bottom: 325px;
+            left: 8%;
         }
         .hero2{
         width: 100%;
@@ -193,7 +201,7 @@
         .hero2-content1 h2{
             font-family: 'Graphik';
             color: #1B1A20;
-            font-weight: 700;
+            font-weight: 600;
 
         }
         .hero2-content1 p{
@@ -232,7 +240,7 @@
         .hero3-content1 h1{
             font-family: 'Graphik';
             color: #1B1A20;
-            font-weight: 900;
+            font-weight: 700;
 
         }
         .hero3-wire{
@@ -606,7 +614,7 @@
         .hero4-wire{
          width: 6%;
          position: relative;
-         bottom: 820px;
+         bottom: 880px;
          left: 15%;
         }
         .hero4-girly{
@@ -618,7 +626,7 @@
         .hero5{
             width: 100%;
             margin: auto;
-            height: 1050px;
+            height: 1250px;
             background-color: #FFFDF5;
         }
         .hero5-write{
@@ -638,7 +646,7 @@
             'hero5-grid1 hero5-grid1 hero5-grid2 hero5-grid2 hero5-grid3 hero5-grid3'
             'hero5-grid4 hero5-grid4 hero5-grid5 hero5-grid5 hero5-grid6 hero5-grid6';
             width: 90%;
-            height: 800px;
+            height: 900px;
             gap: 20px;
             grid-template-columns: repeat(6, 1fr);
             grid-template-rows: repeat(3, 1fr);
@@ -681,7 +689,7 @@
             top: 20px;
             font-weight: 400;
             font-family: 'Graphik';
-            font-size: 1rem;
+            font-size: 0.9rem;
             color: #1B1A20;
         }
         .hero5-grid2{
@@ -718,7 +726,7 @@
             top: 20px;
             font-weight: 400;
             font-family: 'Graphik';
-            font-size: 1rem;
+            font-size: 0.9rem;
             color: #1B1A20;
         }
         
@@ -749,7 +757,7 @@
             top: 20px;
             font-weight: 400;
             font-family: 'Graphik';
-            font-size: 1rem;
+            font-size: 0.9rem;
             color: #1B1A20;
         }
         .hero5-grid4{
@@ -785,7 +793,7 @@
             top: 20px;
             font-weight: 400;
             font-family: 'Graphik';
-            font-size: 1rem;
+            font-size: 0.9rem;
             color: #1B1A20;
         }
         .hero5-grid5{
@@ -827,7 +835,7 @@
             top: 20px;
             font-weight: 400;
             font-family: 'Graphik';
-            font-size: 1rem;
+            font-size: 0.9rem;
             color: #1B1A20;
         }
         .hero5-grid6{
@@ -863,7 +871,7 @@
             top: 20px;
             font-weight: 400;
             font-family: 'Graphik';
-            font-size: 1rem;
+            font-size: 0.9rem;
             color: #1B1A20;
         }
         .hero5-btn{
@@ -884,7 +892,7 @@
         .hero5-wire{
             width: 10%;
             position: relative;
-            bottom: 800px;
+            bottom: 900px;
             left: 25%;
         }
         .hero6{
@@ -1306,82 +1314,83 @@
             #main{
                 overflow-x: hidden;
             }
-            li a{
-                text-decoration: none;
-                align-items: center;
-                font-size: 1rem;
-                font-family: 'Graphik';
-                font-weight: 500;
-                color: #585757;
-                text-align: center;
-                display: none;
-          text-align: center;
-          padding: 20px 3px;
+            
+            .logoo{
+                width: 33%;
+                position: relative;
+                top: 50px;
+                left: 8%;
             }
-            #navbar li{
-                list-style: none;
-            }
-            #navbar{
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                padding: 15px;
+            .menu{
                 background-color:#FFFDF5;
                 position: fixed;
                 top: 0;
                 margin: auto;
                 z-index: 4;
-                
+                width: 100%;
+                height: 110px;
             }
-            #navbar ul{
-                display: flex;
-                gap: 3rem;
+            .menu ul{
                 list-style-type: none;
+                margin: 0;
+                padding: 0;
                 overflow: hidden;
+                background-color: #FFFDF5;
             }
-            .menu li{
-                padding: 6px 10px;
-            }
-            .logoo{
-                width: 110%;
+                .menu li{
+                float:right;
                 position: relative;
-                left: 20%;
-                top: 10px;
+                right: 23%;
+                display: none;
+            }
+            .menu li a{
+                font-family: 'Graphik';
+                font-size: 1rem;
+                display: block;
+                font-weight: 500;
+                color: #585757;
+                text-align: center;
+                padding: 20px 25px;
+                text-decoration: none;
+            }
+            .menu li a{
+                background-color: #FFFDF5;
             }
             .thumbs{
-                width: 136%;
+                width: 70%;
                 position: relative;
-                right: 15%;
-                bottom: 7px;
+                top: 10px;
+                left: 13%;
+                
             }
             .thumbs-up{
                 background-color: #E7332B;
-                width: 15%;
-                padding: 16px;
-                border-radius: 100px;
-                height: 57px;
+                width: 9%;
+                border-radius: 190px;
+                height: 67px;
                 position: relative;
-                left: 6%;
-                bottom: 0px;
                 cursor: pointer;
+                left: 72%;
+                bottom: 10px;
+                z-index: 1;
         
             }
             .thumbs-btn{
-                width: 33%;
+                width: 16%;
                 padding: 5px;
                 height: 40px;
                 background-color: #E7332B;
-                font-size: 0.9rem;
+                font-size: 1rem;
                 font-family: 'Graphik';
                 font-weight: 400;
                 color: #FFFFFF;
                 border: none;
                 border-radius: 20px;
                 position: relative;
-                top: 10px;
-                right: 5.7%;
                 cursor: pointer;
-            }
+                left: 78%;
+                bottom: 60px;
+            } 
             .hero1{
                 width: 100%;
                 background-color: #FFFDF5;
@@ -1792,7 +1801,7 @@
                 }
                 .hero4-write h1{
                     font-family: 'Graphik';
-                    font-size: 1.8rem;
+                    font-size: 1.6rem;
                     font-weight: 600;
                 }
                 .hero4-write-p2{
@@ -2611,94 +2620,84 @@
                     #main{
                         overflow-x: hidden;
                     }
-                    li a{
-                        text-decoration: none;
-                        align-items: center;
-                        font-size: 1rem;
-                        font-family: 'Graphik';
-                        font-weight: 500;
-                        color: #585757;
-                        text-align: center;
-                        display: none;
-                  text-align: center;
-                  padding: 20px 3px;
+                    
+
+                    .logoo{
+                        width: 41%;
+                        position: relative;
+                        top: 50px;
+                        left: 8%;
                     }
-                    #navbar li{
-                        list-style: none;
-                    }
-                    #navbar{
-                        display: flex;
-                        align-items: flex-end;
-                        justify-content: space-between;
-                        padding-top: 10px;
-                        padding-bottom: 15px;
+                    .menu{
                         background-color:#FFFDF5;
                         position: fixed;
                         top: 0;
                         margin: auto;
                         z-index: 4;
                         width: 100%;
-                        
-                    }
-                    #navbar ul{
-                        display: flex;
-                        gap: 3rem;
-                        list-style-type: none;
-                        overflow: hidden;
-                    
-                    }
-                    .menu{
-                        display: none;
-                    }
-                    .menu li{
-                        padding: 6px 22px;
-                        display: none;
+                        height: 110px;
                     }
                     .menu ul{
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        overflow: hidden;
+                        background-color: #FFFDF5;
+                    }
+                        .menu li{
+                        float:right;
+                        position: relative;
+                        right: 23%;
                         display: none;
                     }
-                    .logoo{
-                        width: 70%;
-                        position: relative;
-                        left: 8%;
-                        top: -12px;
+                    .menu li a{
+                        font-family: 'Graphik';
+                        font-size: 1rem;
+                        display: block;
+                        font-weight: 500;
+                        color: #585757;
+                        text-align: center;
+                        padding: 20px 25px;
+                        text-decoration: none;
+                    }
+                    .menu li a{
+                        background-color: #FFFDF5;
                     }
                     .thumbs{
-                        height: 32px;
-                        width: 35px;
+                        width: 70%;
                         position: relative;
-                        right: 15%;
-                        bottom: 7px;
+                        top: 10px;
+                        left: 13%;
                         
                     }
                     .thumbs-up{
                         background-color: #E7332B;
-                        width: 33%;
-                        padding: 16px;
-                        border-radius: 100px;
-                        height: 47px;
+                        width: 16%;
+                        border-radius: 190px;
+                        height: 67px;
                         position: relative;
-                        left: 15%;
-                        top: 1px;
                         cursor: pointer;
+                        left: 56%;
+                        bottom: 10px;
+                        z-index: 1;
                 
                     }
                     .thumbs-btn{
-                        width: 79%;
-                        padding: 21px;
-                        height: 10px;
+                        width: 29%;
+                        padding: 5px;
+                        height: 40px;
                         background-color: #E7332B;
                         font-size: 1rem;
                         font-family: 'Graphik';
                         font-weight: 400;
                         color: #FFFFFF;
                         border: none;
-                        border-radius: 21px;
+                        border-radius: 20px;
                         position: relative;
-                        top: 1px;
-                        right: 17%;
                         cursor: pointer;
-                    }
+                        left: 67%;
+                        bottom: 60px;
+                    } 
                     .hero1{
                         width: 100%;
                         background-color: #FFFDF5;
