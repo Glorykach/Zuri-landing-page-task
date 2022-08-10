@@ -784,6 +784,7 @@ a{
         margin: auto;
         position: relative;
         top: 1000px;
+        
     }
     .footer-content1{
         position: relative;
@@ -793,7 +794,7 @@ a{
     .footer-content2{
         position: relative;
         bottom: 40px;
-        left: -7%;
+        left: -14%;
         font-family: 'Averta';
     font-weight: 400;
     font-size: 1rem;
@@ -803,12 +804,12 @@ a{
         position: relative;
         bottom: 30px;
         text-align: center;
-        left: -7%;
+        left: -14%;
     }
     .footer-content4{
         position: relative;
         bottom: 25px;
-        left: 12%;
+        left: 5%;
         font-family: 'Averta';
     font-weight: 400;
     font-size: 1rem;
