@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/graphik');
 @media only screen and (min-width: 920px){
     
 @font-face {
@@ -170,7 +171,7 @@ button{
     flex-direction: row;
     position: relative;
     top:130px;
-    right: 16%;
+    right: 18%;
     gap: 10px;
     width: 70%;
 }
@@ -878,7 +879,6 @@ background-color: #E7332B;
         margin: auto;
         z-index: 4;
         width: 100%;
-        
     }
     .menu{
         display: flex;
@@ -952,7 +952,7 @@ background-color: #E7332B;
         justify-content: center;
         margin: auto;
         position: relative;
-        top: -20px;
+        top: 50px;
         left: 0%;
         text-align: center;
         
@@ -1894,7 +1894,7 @@ background-color: #E7332B;
         width: 110%;
         height: 900px;
         background-image: url("./images/hero2-bgimage.png");
-        background-size: cover;
+        background-size: contain;
     }
     .hero2-containerA{
         position: relative;
